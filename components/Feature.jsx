@@ -13,7 +13,7 @@ const Features = () => {
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-red-200 text-white w-full text-center text-base">
+              <button type="button" className="py-4 px-6 bg-red-400 text-white w-full text-center text-base">
                 Try now
               </button>
             </div>
@@ -25,7 +25,15 @@ const Features = () => {
           </div>
         </li>
         <li className="w-2/5">
-          <img src="https://images.unsplash.com/photo-1624454003060-fc7189ed6242?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player
+          src="https://assets4.lottiefiles.com/packages/lf20_0qaHLD5frO.json"
+          background="transparent"
+          speed="2"
+          style={{ width: '300px', height: '300px' }}
+          loop
+          autoplay
+        ></lottie-player>
         </li>
         <li className="w-2/5">
           <img src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
