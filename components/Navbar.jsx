@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -53,12 +53,7 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Mobile button */}
-        <div className="block sm:hidden z-10" onClick={handleNav}>
-          {nav ? (
-            <AiOutlineClose size={20} style={{ color: textColor }} />
-          ) : (
-            <AiOutlineMenu size={20} style={{ color: textColor }} />
-          )}
+        
         </div>
         {/* Mobile Menu*/}
         <div
