@@ -6,21 +6,32 @@ import Slider from 'components/Slider';
 import FooterComponent from 'components/Footer';
 import SponsorsComponent from 'components/Sponsors';
 import Features from 'components/Feature';
+import Testimonial from 'components/Testimonials';
+import PricingPlan from 'components/Pricing';
+import GetStarted from 'components/GetStarted';
+import BlogPostCard from 'components/Blogs';
 export default function Home() {
   return (
-    <div>
+    <div className="bg-red-100">
       <Head>
         <title> Financial Budget Serving App</title>
         <meta name='description' content = 'Generateed by create
         next app' />
       </Head>
       
-      <Hero heading = 'Captur Photography' message = 'Start saving money right now with our
-      budgeting application'/>
+      
+      <Slider slides={SliderData}/> 
+
     <SponsorsComponent/>
+    
     <Features/>  
-    <Slider slides={SliderData}/> 
+    
+    <Testimonial/>
+    <PricingPlan/>
+    <GetStarted/>
+    <BlogPostCard/>
     <FooterComponent/>
+    
     </div>
   );
 }

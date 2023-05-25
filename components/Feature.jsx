@@ -2,7 +2,7 @@ import React from 'react';
 
 const Features = () => {
   return (
-    <div className="max-w-screen-xl p-8 mx-auto">
+    <div className="max-w-screen-xl p-8 mx-auto bg-color-white">
       <ul className="flex flex-wrap items-start gap-8">
         <li className="w-2/5">
           <h2 className="mb-12 text-3xl font-extrabold leading-9 text-gray-900 font-mono">
@@ -13,22 +13,22 @@ const Features = () => {
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-gray-200 text-white w-full text-center text-base">
+              <button type="button" className="py-4 px-6 bg-red-200 text-white w-full text-center text-base">
                 Try now
               </button>
             </div>
             <div className="inline-flex ml-3 rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-gray-600 text-white w-full text-center text-base">
+              <button type="button" className="py-4 px-6 bg-red-200 text-white w-full text-center text-base">
                 Learn more
               </button>
             </div>
           </div>
         </li>
         <li className="w-2/5">
-          <img src="https://images.unsplash.com/photo-1663124178667-28b3776d7c15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNwb25zb3IlMjBsb2dvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+          <img src="https://images.unsplash.com/photo-1624454003060-fc7189ed6242?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
         </li>
         <li className="w-2/5">
-          <img src="https://images.unsplash.com/photo-1663124178667-28b3776d7c15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNwb25zb3IlMjBsb2dvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+          <img src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
         </li>
         <li className="w-2/5">
           <h2 className="font-mono mb-12 text-3xl font-extrabold leading-9 text-gray-900">
@@ -39,12 +39,12 @@ const Features = () => {
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-gray-200 text-white w-full text-center text-base">
+              <button type="button" className="py-4 px-6 bg-red-400 text-white w-full text-center text-base">
                 Try now
               </button>
             </div>
             <div className="inline-flex ml-3 rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-gray-600 text-white w-full text-center text-base">
+              <button type="button" className="py-4 px-6 bg-red-200 text-white w-full text-center text-base">
                 Learn more
               </button>
             </div>

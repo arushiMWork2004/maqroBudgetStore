@@ -53,8 +53,6 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Mobile button */}
-        
-        </div>
         {/* Mobile Menu*/}
         <div
           className={
@@ -78,6 +76,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 export const SliderData = [
     {
         image:
-        'https://images.unsplash.com/photo-1632406897767-2319bcedac9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVkZ2V0aW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+        'https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGlnZ3klMjBiYW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
     },
     {
         image:
