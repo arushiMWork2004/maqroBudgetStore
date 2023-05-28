@@ -40,7 +40,7 @@ const Testimonial = () => {
           {testimonials[activeIndex].name}
         </p>
       </div>
-      <div className="carousel-controls flex justify-center space-x-4">
+      <div className="carousel-controls flex justify-center space-x-4 mt-4">
         <button className="carousel-button" onClick={handlePrev}>
           &lt;
         </button>
