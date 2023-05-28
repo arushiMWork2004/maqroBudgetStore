@@ -34,24 +34,16 @@ const BlogPostList = () => {
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     },
     {
-        title: 'Post 3',
-        author: 'Jane Smith',
-        date: 'May 2, 2023',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+      title: 'Post 3',
+      author: 'Jane Smith',
+      date: 'May 2, 2023',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     },
-    {
-        title: 'Post 4',
-        author: 'Jane Smith',
-        date: 'May 2, 2023',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-    },
-
-    
   ];
 
   return (
     <div className="container mx-auto py-8">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {blogPosts.map((post, index) => (
           <BlogPostCard key={index} {...post} />
         ))}
