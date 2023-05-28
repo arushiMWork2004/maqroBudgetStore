@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
@@ -38,7 +37,10 @@ const Navbar = () => {
             Put Logo Here
           </h1>
         </Link>
-        <ul style={{ color: textColor }} className="hidden sm:flex">
+        <ul
+          style={{ color: textColor }}
+          className={`hidden sm:flex ${nav ? 'absolute' : ''} sm:relative top-full left-0 sm:top-0 sm:left-auto bg-black text-center sm:bg-transparent sm:text-white`}
+        >
           <li className="p-4">
             <Link href="/">Home</Link>
           </li>
@@ -53,15 +55,41 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Mobile button */}
-        {/* Mobile Menu*/}
-        <div
-          className={
-            nav
-              ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-              : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-          }
+        <button
+          onClick={handleNav}
+          className="sm:hidden text-white p-2 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
         >
-          <ul>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            {nav ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            )}
+          </svg>
+        </button>
+        {/* Mobile Menu */}
+        <div
+          className={`${
+            nav ? 'flex' : 'hidden'
+          } sm:hidden absolute top-full left-0 right-0 bg-black text-center ease-in duration-300`}
+        >
+          <ul className="w-full">
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/">Home</Link>
             </li>
