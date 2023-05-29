@@ -2,9 +2,9 @@ import React from 'react';
 
 const GetStarted = () => {
   return (
-    <div className="flex flex-col items-center justify-center p-8">
-      <div className="max-w-xl mx-auto bg-white rounded-lg shadow-md flex flex-col sm:flex-row">
-        <div className="w-full sm:w-1/2 p-8">
+    <div className="container mx-auto py-8">
+      <div className="w-full mx-auto bg-white rounded-lg shadow-md flex flex-col sm:flex-row">
+        <div className="w-full sm:w-1/2 p-8 flex flex-col justify-center">
           <h2 className="text-2xl font-bold font-mono mb-4">Get Started!</h2>
           <p className="font-mono text-gray-600 mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a
