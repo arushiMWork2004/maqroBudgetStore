@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
@@ -43,16 +44,16 @@ const Navbar = () => {
           className={`hidden sm:flex ${nav ? 'absolute' : ''} sm:relative top-full left-0 sm:top-0 sm:left-auto bg-black text-center sm:bg-transparent sm:text-white`}
         >
           <li className="p-4">
-            <Link href="/">Home</Link>
+            <Link href="/pricing">Pricing</Link>
           </li>
           <li className="p-4">
-            <Link href="/#gallery">Gallery</Link>
-          </li>
-          <li className="p-4">
-            <Link href="/portfolio">Work</Link>
+            <Link href="/aboutUs">About Us</Link>
           </li>
           <li className="p-4">
             <Link href="/contact">Contact</Link>
+          </li>
+          <li className="p-4">
+            <Link href="/blog">Blog</Link>
           </li>
           {/* Add a dropdown menu */}
           <li className="relative group">
@@ -135,16 +136,16 @@ const Navbar = () => {
         >
           <ul className="w-full">
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/">Home</Link>
+              <Link href="/pricing">Pricing</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/#gallery">Gallery</Link>
-            </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/portfolio">Work</Link>
+              <Link href="/aboutUs">About Us</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/contact">Contact</Link>
+            </li>
+            <li className="p-4 text-4xl hover:text-gray-500">
+              <Link href="/blog">Blog</Link>
             </li>
             {/* Add dropdown menu in mobile view */}
             <li className="relative group">
