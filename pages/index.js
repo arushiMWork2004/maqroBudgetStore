@@ -16,7 +16,7 @@ export default function Home() {
         <meta name='description' content = 'Generateed by create
         next app' />
       </Head>
-      <Hero heading='Captur Photography' message='I capture moments in nature and keep them alive.' />
+      <Hero heading='Finance. Finally.' message='Helping save YOU money.' />
 
     <SponsorsComponent/>
     
