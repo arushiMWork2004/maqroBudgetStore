@@ -31,10 +31,12 @@ const PricingPlan = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
           <div className="px-6 py-4">
-            <h2 className="text-xl font-bold font-mono mb-4">Basic</h2>
+            <h2 className="text-xl font-bold font-mono mb-4">Personal</h2>
+            <p className="font-mono">Basic Features Are:</p>
             <p className="text-gray-600 mb-4">
-              {isMonthly ? '$10/month' : '$100/year'}
+              {isMonthly ? '$50/month' : '$100/year'}
             </p>
+            
             <ul className="text-gray-600">
               <li>Feature 1</li>
               <li>Feature 2</li>
