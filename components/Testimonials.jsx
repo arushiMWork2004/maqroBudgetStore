@@ -33,7 +33,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="reviews-carousel max-w-screen-xl px-8 mx-auto bg-white">
+    <div className="reviews-carousel max-w-screen-xl px-8 mx-auto bg-white py-3 ">
         <div className="flex items-center justify-center">
         <a href="#" class="relative block">
             <img alt="profil" src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="mx-auto object-cover rounded-full h-10 w-10 "/>
@@ -62,6 +62,7 @@ const Testimonial = () => {
         <button className="carousel-button" onClick={handlePrev}>
           &lt;
         </button>
+        <p className="text-4xl"> · · ·</p>
         <button className="carousel-button" onClick={handleNext}>
           &gt;
         </button>
