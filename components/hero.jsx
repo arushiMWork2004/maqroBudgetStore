@@ -5,11 +5,11 @@ const Hero = ({ heading, message }) => {
     <div className="flex flex-col items-center justify-center min-h-screen w-full bg-red-100">
       {/* Text */}
       <div className="text-white text-center">
-        <h2 className="text-8xl font-bold font-mono">{heading}</h2>
-        <p className="py-5 font-bold font-mono text-4xl">{message}</p>
+        <h2 className="text-8xl font-bold font-mono sm:text-6xl md:text-7xl lg:text-8xl">{heading}</h2>
+        <p className="py-5 font-bold font-mono text-4xl sm:text-3xl md:text-4xl lg:text-5xl">{message}</p>
         <div className="mb-4 inline-flex rounded-md shadow">
-          <button className='py-6 px-8 bg-red-200 text-white text-center mr-4'>Join Us Now</button>
-          <button className='py-6 px-8 bg-red-400 text-white  text-center'>Request Demo</button>
+          <button className='py-6 px-8 bg-red-200 text-white text-center mr-4 sm:py-4 sm:px-6 sm:text-lg md:py-5 md:px-7 md:text-xl lg:py-6 lg:px-8 lg:text-2xl'>Join Us Now</button>
+          <button className='py-6 px-8 bg-red-400 text-white text-center sm:py-4 sm:px-6 sm:text-lg md:py-5 md:px-7 md:text-xl lg:py-6 lg:px-8 lg:text-2xl'>Request Demo</button>
         </div>
       </div>
       {/* Lottie Animation */}
