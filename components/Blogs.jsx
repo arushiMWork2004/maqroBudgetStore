@@ -8,7 +8,7 @@ const BlogPostCard = ({ title, author, date, content, imageName }) => {
           <img
             alt="profil"
             src={imageName}
-            class="mx-auto object-cover h-30 w-full"
+            className="mx-auto object-cover h-40 w-40 rounded-full"
           />
         </a>
       </div>
