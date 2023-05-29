@@ -5,6 +5,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
   const [textColor, setTextColor] = useState('white');
+  const [mobileMenuBackground, setMobileMenuBackground] = useState('white');
+  const [mobileMenuTextColor, setMobileMenuTextColor] = useState('#000000');
 
   const handleNav = () => {
     setNav(!nav);
@@ -28,6 +30,16 @@ const Navbar = () => {
       window.removeEventListener('scroll', changeColor);
     };
   }, []);
+
+  useEffect(() => {
+    if (nav) {
+      setMobileMenuBackground('#808080');
+      setMobileMenuTextColor('#ffffff');
+    } else {
+      setMobileMenuBackground('white');
+      setMobileMenuTextColor('#000000');
+    }
+  }, [nav]);
 
   return (
     <div style={{ backgroundColor: color }} className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
@@ -87,7 +99,7 @@ const Navbar = () => {
         <div
           className={`${
             nav ? 'flex' : 'hidden'
-          } sm:hidden absolute top-full left-0 right-0 bg-black text-center ease-in duration-300`}
+          } sm:hidden absolute top-full left-0 right-0 bg-${mobileMenuBackground} text-${mobileMenuTextColor} text-center ease-in duration-300`}
         >
           <ul className="w-full">
             <li className="p-4 text-4xl hover:text-gray-500">
