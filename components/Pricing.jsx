@@ -33,14 +33,21 @@ const PricingPlan = () => {
           <div className="px-6 py-4">
             <h2 className="text-xl font-bold font-mono mb-4">Personal</h2>
             <p className="font-mono">Basic Features Are:</p>
-            <p className="text-gray-600 mb-4">
-              {isMonthly ? '$50/month' : '$100/year'}
+            <div className = "inline-flex">
+            <p className="text-gray-600 text-2xl font-bold mb-4">
+              {isMonthly ? '$30  /' : '$300 /'}
             </p>
+            <p className="text-gray-600 mb-4">
+              {isMonthly ? 'month' : ' year'}
+            </p>
+            </div>
             
             <ul className="text-gray-600">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
+              <li>✓Feature 1</li>
+              <li>✓Feature 2 🛈</li>
+              <li>✓Feature 3</li>
+              <li>✗Feature 4</li>
+              <li>✗Feature 5</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
               Select Plan
@@ -50,13 +57,21 @@ const PricingPlan = () => {
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
           <div className="px-6 py-4">
             <h2 className="text-xl font-bold font-mono mb-4">Standard</h2>
-            <p className="text-gray-600 mb-4">
-              {isMonthly ? '$20/month' : '$200/year'}
+            <p className="font-mono mb-2">Standard Features Are:</p>
+            <div className = "inline-flex">
+            <p className="text-gray-600 text-2xl font-bold mb-4">
+              {isMonthly ? '$20  /' : '$150 /'}
             </p>
+            <p className="text-gray-600 mb-4">
+              {isMonthly ? 'month' : ' year'}
+            </p>
+            </div>
             <ul className="text-gray-600">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
+              <li>✓Feature 1</li>
+              <li>✓Feature 2 🛈</li>
+              <li>✓Feature 3</li>
+              <li>✗Feature 4</li>
+              <li>✗Feature 5</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
               Select Plan
@@ -65,14 +80,22 @@ const PricingPlan = () => {
         </div>
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
           <div className="px-6 py-4">
-            <h2 className="text-xl font-bold font-mono mb-4">Premium</h2>
-            <p className="text-gray-600 mb-4">
-              {isMonthly ? '$30/month' : '$300/year'}
+            <h2 className="text-xl font-bold font-mono mb-2">Premium</h2>
+            <p className="font-mono mb-2">Premium Features Are:</p>
+            <div className = "inline-flex">
+            <p className="text-gray-600 text-2xl font-bold mb-4">
+              {isMonthly ? '$30  /' : '$300 /'}
             </p>
+            <p className="text-gray-600 mb-4">
+              {isMonthly ? 'month' : ' year'}
+            </p>
+            </div>
             <ul className="text-gray-600">
-              <li>Feature 1</li>
-              <li>Feature 2</li>
-              <li>Feature 3</li>
+              <li>✓Feature 1</li>
+              <li>✓Feature 2 🛈</li>
+              <li>✓Feature 3</li>
+              <li>✓Feature 4</li>
+              <li>✓Feature 5</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
               Select Plan
