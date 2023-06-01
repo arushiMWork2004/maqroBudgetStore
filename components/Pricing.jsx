@@ -8,7 +8,12 @@ const PricingPlan = () => {
   };
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-8 mt-6 mb-6">
+         <div>
+          <h1 className="flex mb-2 justify-center text-center font-bold text-4xl sm: text-2xl md: text-3xl font-mono">Pricing</h1>
+          <p className="flex mb-2 justify-center text-center text-xl sm: text-sm font-mono">Lorem ipsum dolor sit amet, in atqui possim eos, nec suas ridens et, mea b</p>
+        
+      </div>
       <div className="flex justify-center mb-4">
         <button
           className={`px-4 py-2 mr-2 ${
