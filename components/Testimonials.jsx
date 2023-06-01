@@ -48,7 +48,7 @@ const Testimonial = () => {
       <div className="testimonial">
         
       <div className="carousel-controls flex justify-center space-x-4 mt-4">
-  <button className="carousel-button align-left text-4xl mr-8" onClick={handlePrev}>
+  <button className="carousel-button align-left text-4xl ml-12" onClick={handlePrev}>
     ⇚
   </button>
   <div className="text-center flex-grow">
@@ -56,7 +56,7 @@ const Testimonial = () => {
       {testimonials[activeIndex].review}
     </p>
   </div>
-  <button className="ml-8 carousel-button align-right text-4xl" onClick={handleNext}>
+  <button className="ml-12 carousel-button align-right text-4xl" onClick={handleNext}>
     ⇛
   </button>
 </div>
