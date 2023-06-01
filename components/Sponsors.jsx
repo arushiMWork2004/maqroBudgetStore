@@ -2,7 +2,7 @@ import React from 'react';
 
 const SponsorsComponent = () => {
   return (
-    <div className="max-w-screen-xl p-8 mx-auto">
+    <div className="max-w-screen-xl p-8 mx-auto mb-24">
       <h1 className="text-4xl font-bold font-mono text-center p-4">Trusted by</h1>
       <div className="flex flex-wrap justify-center sm:justify-start space-x-4 sm:space-x-8">
         <img
