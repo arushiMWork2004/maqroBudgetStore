@@ -43,11 +43,11 @@ const PricingPlan = () => {
             </div>
             
             <ul className="text-gray-600">
-              <li>✓Feature 1</li>
-              <li>✓Feature 2 🛈</li>
-              <li>✓Feature 3</li>
-              <li>✗Feature 4</li>
-              <li>✗Feature 5</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip 🛈</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
               Select Plan
@@ -67,11 +67,11 @@ const PricingPlan = () => {
             </p>
             </div>
             <ul className="text-gray-600">
-              <li>✓Feature 1</li>
-              <li>✓Feature 2 🛈</li>
-              <li>✓Feature 3</li>
-              <li>✗Feature 4</li>
-              <li>✗Feature 5</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip 🛈</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
               Select Plan
@@ -91,11 +91,11 @@ const PricingPlan = () => {
             </p>
             </div>
             <ul className="text-gray-600">
-              <li>✓Feature 1</li>
-              <li>✓Feature 2 🛈</li>
-              <li>✓Feature 3</li>
-              <li>✓Feature 4</li>
-              <li>✓Feature 5</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip 🛈</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
+              <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
               Select Plan
