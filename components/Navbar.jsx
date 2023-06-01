@@ -34,29 +34,20 @@ const Navbar = () => {
   return (
     <div style={{ backgroundColor: color }} className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
-        <Link href="/">
-          <h1 style={{ color: textColor }} className="font-bold text-4xl">
-            Put Logo Here
-          </h1>
-        </Link>
+        <div className="flex items-center justify-center">
+        <a href="#" class="relative block">
+            <img alt="profil" src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" class="mx-auto object-cover rounded-full h-10 w-10 "/>
+            
+        </a>
+        <p1 
+        style={{ color: textColor }}
+        className="inline-flex ml-4 font-mono">Finance Finally</p1>
+        </div>
         <ul
           style={{ color: textColor }}
           className={`hidden sm:flex ${nav ? 'absolute' : ''} sm:relative top-full left-0 sm:top-0 sm:left-auto bg-black text-center sm:bg-transparent sm:text-white`}
         >
-          <li className="p-4">
-            <Link href="/pricing">Pricing</Link>
-          </li>
-          <li className="p-4">
-            <Link href="/aboutUs">About Us</Link>
-          </li>
-          <li className="p-4">
-            <Link href="/contact">Contact</Link>
-          </li>
-          <li className="p-4">
-            <Link href="/blog">Blog</Link>
-          </li>
-          {/* Add a dropdown menu */}
-          <li className="relative group">
+           <li className="relative group">
             <button
               className="flex items-center p-4"
               onClick={() => setDropdownOpen(!dropdownOpen)}
@@ -98,7 +89,26 @@ const Navbar = () => {
               </div>
             )}
           </li>
+          <li className="p-4">
+            <Link href="/pricing">Pricing</Link>
+          </li>
+          <li className="p-4">
+            <Link href="/aboutUs">About Us</Link>
+          </li>
+          <li className="p-4">
+            <Link href="/contact">Contact</Link>
+          </li>
+          <li className="p-4">
+            <Link href="/blog">Blog</Link>
+          </li>
+          {/* Add a dropdown menu */}
         </ul>
+        <div className="align-left">
+        <div className="mb-4 inline-flex rounded-md">
+          <button className='py-2 px-2 bg-red-2-- text-white text-center mr-4 sm:py-2 sm:px-2 sm:text-sm md:py-2 md:px-2 md:text-sm lg:py-2 lg:px-2 lg:text-sm'>Sign in</button>
+          <button className='py-2 px-2 bg-red-400 text-white text-center mr-4 sm:py-2 sm:px-2 sm:text-sm md:py-2 md:px-2 md:text-sm lg:py-2 lg:px-2 lg:text-sm'>Sign up</button>
+      </div>
+        </div>
         {/* Mobile button */}
         <button
           onClick={handleNav}
