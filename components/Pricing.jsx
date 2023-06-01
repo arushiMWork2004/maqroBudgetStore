@@ -16,7 +16,7 @@ const PricingPlan = () => {
       </div>
       <div className="flex justify-center mb-4">
         <button
-          className={`px-4 py-2 mr-2 ${
+          className={`px-4 py-2 mr-2 border-white ${
             isMonthly ? 'bg-red-300' : 'bg-white'
           }`}
           onClick={togglePlan}
@@ -24,7 +24,7 @@ const PricingPlan = () => {
           Monthly
         </button>
         <button
-          className={`px-4 py-2 ${
+          className={`px-4 py-2 border-white ${
             isMonthly ? 'bg-white' : 'bg-red-300'
           }`}
           onClick={togglePlan}
@@ -55,7 +55,7 @@ const PricingPlan = () => {
               <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
-              Select Plan
+              Upgrade
             </button>
           </div>
         </div>
@@ -79,7 +79,7 @@ const PricingPlan = () => {
               <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
-              Select Plan
+               Upgrade
             </button>
           </div>
         </div>
@@ -103,7 +103,7 @@ const PricingPlan = () => {
               <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
             <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
-              Select Plan
+              Contact Sales
             </button>
           </div>
         </div>
