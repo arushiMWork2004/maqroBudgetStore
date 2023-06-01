@@ -105,8 +105,10 @@ const Navbar = () => {
         </ul>
         <div className="align-left">
         <div className="mb-4 inline-flex rounded-md">
-          <button className='py-2 px-2 bg-red-2-- text-white text-center mr-4 sm:py-2 sm:px-2 sm:text-sm md:py-2 md:px-2 md:text-sm lg:py-2 lg:px-2 lg:text-sm'>Sign in</button>
-          <button className='py-2 px-2 bg-red-400 text-white text-center mr-4 sm:py-2 sm:px-2 sm:text-sm md:py-2 md:px-2 md:text-sm lg:py-2 lg:px-2 lg:text-sm'>Sign up</button>
+          <button 
+          style={{ color: textColor }}
+          className='py-2 px-2 bg-red-2-- font-mono text-center mr-4 sm:py-2 sm:px-2 sm:text-sm md:py-2 md:px-2 md:text-sm lg:py-2 lg:px-2 lg:text-sm'>Sign in</button>
+          <button className='py-2 px-2 font-mono bg-red-400 text-white text-center mr-4 sm:py-2 sm:px-2 sm:text-sm md:py-2 md:px-2 md:text-sm lg:py-2 lg:px-2 lg:text-sm'>Sign up</button>
       </div>
         </div>
         {/* Mobile button */}
