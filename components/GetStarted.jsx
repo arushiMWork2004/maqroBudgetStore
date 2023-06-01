@@ -5,14 +5,14 @@ const GetStarted = () => {
     <div className="container mx-auto py-8">
       <div className="w-full mx-auto bg-white rounded-lg shadow-md flex flex-col sm:flex-row">
         <div className="w-full sm:w-1/2 p-8 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold font-mono mb-4">Get Started!</h2>
+          <h2 className="text-6xl font-bold font-mono mb-4">Get Started!</h2>
           <p className="font-mono text-gray-600 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a
-            lorem sed est faucibus tristique id quis nibh.
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
           </p>
-          <button className="bg-red-300 text-white font-mono py-2 px-4 rounded">
+          <button className="bg-red-300 text-white font-mono py-2" style={{ width: '150px' }}>
             Sign up
           </button>
+
         </div>
         <div className="w-full sm:w-1/2">
           <img
