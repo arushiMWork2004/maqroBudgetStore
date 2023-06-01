@@ -2,64 +2,60 @@ import React from 'react';
 
 const Features = () => {
   return (
-    <div className="max-w-screen-xl p-8 mx-auto bg-color-white">
-      <div className="flex flex-wrap justify-between">
-        <div className="w-full md:w-1/2 lg:w-5/12">
-          <h2 className="mb-12 text-3xl font-extrabold leading-9 text-gray-900 font-mono">
-            Budget Tracker
-          </h2>
-          <p className="mt-2 text-base leading-6 text-gray-500">
-            Learn more about the different ways that our product can help put more money in your pocket. With our product, we will help you uncover all the different ways you can save.
-          </p>
-          <div className="mt-4">
-            <div className="mb-4 inline-flex rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-red-400 text-white w-full text-center text-base">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ml-16 mr-16">
+      <div className="p-4">
+        <h1 className="text-4xl font-mono font-bold mb-4">Feature</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div className="mt-4">
+            <div className="mb-4 inline-flex rounded-md">
+              <button type="button" className="py-4 px-6 bg-red-400 text-white">
                 Try now
               </button>
             </div>
-            <div className="inline-flex rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-red-200 text-white w-full text-center text-base">
+            <div className="inline-flex rounded-md font-bold">
+              <button type="button" className="py-4 px-6 text-white w-full text-center text-base">
                 Learn more
               </button>
             </div>
           </div>
-        </div>
-        <div className="w-full md:w-1/2 lg:w-5/12">
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-          <lottie-player
-            src="https://assets4.lottiefiles.com/packages/lf20_0qaHLD5frO.json"
-            background="transparent"
-            speed="2"
-            style={{ width: '300px', height: '300px' }}
-            loop
-            autoplay
-          ></lottie-player>
-        </div>
       </div>
-      <div className="flex flex-wrap justify-between gap-4">
-        <div className="w-full md:w-1/2">
-          <img src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" />
-        </div>
-        <div className="w-full md:w-1/2 lg:w-5/12">
-          <h2 className="font-mono mb-12 text-3xl font-extrabold leading-9 text-gray-900">
-            Store
-          </h2>
-          <p className="mt-2 text-base leading-6 text-gray-500">
-            Learn more about the different ways you can save with our various products and the various ways we can help you save money.
-          </p>
-          <div className="mt-4">
-            <div className="mb-4 inline-flex rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-red-400 text-white w-full text-center text-base">
+      <div className="p-4">
+        <img
+          alt="img1"
+          src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+      <div className="p-4">
+        <img
+          alt="img1"
+          src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+        />
+      </div>
+      <div className="p-4">
+        <h1 className="text-4xl font-mono font-bold mb-4">Feature</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div className="mt-4">
+            <div className="mb-4 inline-flex rounded-md">
+              <button type="button" className="py-4 px-6 bg-red-400 text-white">
                 Try now
               </button>
             </div>
-            <div className="inline-flex rounded-md shadow">
-              <button type="button" className="py-4 px-6 bg-red-200 text-white w-full text-center text-base">
+            <div className="inline-flex rounded-md font-bold">
+              <button type="button" className="py-4 px-6 text-white w-full text-center text-base">
                 Learn more
               </button>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
