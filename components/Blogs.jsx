@@ -59,9 +59,8 @@ const BlogPostList = () => {
 
   return (
     <div>
-      <div className="justify-center items-center">
-      <h1 className="justify-center items-center">Hi</h1>
-      </div>
+          <h1 className="flex justify-center text-center font-bold text-4xl sm: text-2xl md: text-3xl font-mono">What's new?</h1>
+          <p className="flex justify-center text-center text-xl sm: text-sm font-mono">Lorem ipsum dolor sit amet, in atqui possim eos, nec suas ridens et, mea b</p>
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-3 gap-6">
           {blogPosts.map((post, index) => (
@@ -69,6 +68,10 @@ const BlogPostList = () => {
           ))}
         </div>
       </div>
+      <div className="flex justify-center items-center">
+  <       button className="rounded bg-red-300 py-3 px-8 text-2xl text-md font-mono mb-4">See more articles</button>
+      </div>
+
     </div>
   );
 };
