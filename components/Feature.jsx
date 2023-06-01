@@ -28,12 +28,14 @@ const Features = () => {
         <img
           alt="img1"
           src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+          className='w-full'
         />
       </div>
       <div className="p-4">
         <img
           alt="img1"
           src="https://images.unsplash.com/photo-1580508174046-170816f65662?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZpbmFuY2UlMjBwaW5rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+          className='w-full'
         />
       </div>
       <div className="p-4">
