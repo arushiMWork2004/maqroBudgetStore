@@ -2,7 +2,7 @@ import React from 'react';
 
 const Features = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ml-16 mr-16">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ml-24 mr-24 lg:grid-cols-2 gap-14 ml-42 mr-42">
       <div className="p-4">
         <h1 className="text-4xl font-mono font-bold mb-4">Feature</h1>
         <p>
