@@ -47,7 +47,7 @@ const Testimonial = () => {
         
       <div className="testimonial">
         
-      <div className="carousel-controls flex justify-center space-x-4 mt-4">
+      <div className="carousel-controls flex justify-center grid grid-cols-3 mt-4">
   <button className="carousel-button align-left text-4xl ml-12" onClick={handlePrev}>
     ⇚
   </button>
