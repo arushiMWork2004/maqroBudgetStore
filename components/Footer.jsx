@@ -13,9 +13,9 @@ const Footer = () => {
 
   return (
     <footer className="bg-white py-10">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 justify-between">
-        <div className="col-span-1 sm:col-span-2 md:col-span-1 lg:col-span-1">
-          <div className="flex items-center justify-center">
+      <div className="container mx-auto flex justify-left grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 ">
+        <div className="col-span-1  sm:col-span-2 md:col-span-1 lg:col-span-1">
+          <div className="flex items-center justify-center ">
             <a href="#" className="relative block">
               <img
                 alt="profil"
@@ -25,9 +25,10 @@ const Footer = () => {
             </a>
             <p className="inline-flex ml-4 font-mono">Finance Finally</p>
           </div>
+        
         </div>
-        <div className="col-span-1 sm:col-span-2 md:col-span-1 lg:col-span-1 container grid grid-cols-2">
-          <div>
+        <div className="grid grid-cols-3">
+        <div>
             <h1 className="font-mono font-bold text-xl mb-2">Product</h1>
             <p className="font-mono mb-2">Features</p>
             <p className="font-mono mb-2">Pricing</p>
@@ -38,13 +39,14 @@ const Footer = () => {
             <p className="font-mono mb-2">User guides</p>
             <p className="font-mono mb-2">Webinar</p>
           </div>
-        </div>
-        <div className="col-span-1 sm:col-span-2 md:col-span-1 lg:col-span-1">
+          <div className="col-span-1">
           <h1 className="font-mono font-bold text-xl mb-2">Company</h1>
           <p className="font-mono mb-2">About us</p>
           <p className="font-mono mb-2">Join us</p>
         </div>
-        <div className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-1">
+        </div>
+      
+        <div className="col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-1">
           <h1 className="font-mono font-bold text-xl">Subscribe to our newsletter</h1>
           <p className="font-mono mb-2">For product announcements and inclusive insights</p>
           <div className="col-span-1 flex items-center justify-start space-x-2">
@@ -74,9 +76,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="mx-auto border-b w-2/3"></div>
+      <div className="mx-auto border-b w-2/3"></div>
       <div className="container mx-auto mt-6 flex justify-center">
-        <div className="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 justify-between">
-          <div className="relative">
+        <div className=" grid grid-cols-3 gap-6">
+          <div className="mr-4">
             <button
               className="flex items-center justify-between bg-white border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none focus:border-blue-500"
               onClick={() => setDropdownOpen(!dropdownOpen)}
@@ -117,20 +120,25 @@ const Footer = () => {
               </div>
             )}
           </div>
-          <div>
+          <div className="px-20">
             <p className="text-sm">
               © Finance Finally • Privacy • Terms • Sitemap
             </p>
           </div>
-          <div className="inline-flex">
-            {/* Render the Facebook icon */}
-            <FaFacebook className="text-gray-600 text-3xl mr-2" />
+          <div className="grid grid-cols-2 flex justify-end">
+            <div>
+              
+            </div>
+            <div className="flex justify-end">
+              {/* Render the Facebook icon */}
+              <FaFacebook className="text-gray-600 text-3xl mr-2 inline-flex" />
 
-            {/* Render the LinkedIn icon */}
-            <FaLinkedin className="text-gray-600 text-3xl mr-2" />
+              {/* Render the LinkedIn icon */}
+              <FaLinkedin className="text-gray-600 text-3xl mr-2 inline-flex" />
 
-            {/* Render the YouTube icon */}
-            <FaYoutube className="text-gray-600 text-3xl mr-2" />
+              {/* Render the YouTube icon */}
+              <FaYoutube className="text-gray-600 text-3xl mr-2 inline-flex" />
+            </div>
           </div>
         </div>
       </div>
