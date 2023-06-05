@@ -10,10 +10,10 @@ const PricingPlan = () => {
   return (
     <div className="container mx-auto py-8 mt-6 mb-6">
       <div>
-        <h1 className="flex mb-2 justify-center text-center font-bold text-4xl sm:text-2xl md:text-3xl font-mono">
+        <h1 className="flex mb-2 justify-center text-center font-bold text-8xl sm:text-2xl md:text-6xl font-mono font-bold mb-4">
           Pricing
         </h1>
-        <p className="flex mb-2 justify-center text-center text-xl sm:text-sm font-mono">
+        <p className="flex mb-4 justify-center text-center text-xl sm:text-sm font-mono mb-4">
           Lorem ipsum dolor sit amet, in atqui possim eos, nec suas ridens et, mea b
         </p>
       </div>
