@@ -2,16 +2,16 @@ import React from 'react';
 
 const Features = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ml-24 mr-24 lg:grid-cols-2 gap-14 ml-42 mr-42">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ml-24 mr-24 my-32 lg:grid-cols-2 gap-14 ml-42 mr-42">
       <div className="p-4">
-        <h1 className="text-4xl font-mono font-bold mb-4">Feature</h1>
-        <p>
+        <h1 className="text-8xl font-mono font-bold mb-24">Feature</h1>
+        <p className="mb-24 text-xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div className="mt-4">
+        <div className="mt-18">
             <div className="mb-4 inline-flex rounded-md">
               <button type="button" className="py-4 px-6 bg-red-400 text-white">
                 Try now
@@ -39,14 +39,14 @@ const Features = () => {
         />
       </div>
       <div className="p-4">
-        <h1 className="text-4xl font-mono font-bold mb-4">Feature</h1>
-        <p>
+        <h1 className="text-8xl font-mono font-bold mb-24">Feature</h1>
+        <p className="mb-24 text-xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div className="mt-4">
+        <div className="mt-18">
             <div className="mb-4 inline-flex rounded-md">
               <button type="button" className="py-4 px-6 bg-red-400 text-white">
                 Try now
