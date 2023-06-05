@@ -2,7 +2,7 @@ import React from 'react';
 
 const BlogPostCard = ({ title, author, date, content, imageName }) => {
   return (
-    <div className="bg-white mb-15 py-3">
+    <div className="bg-white mb-15 py-3 my-3">
       <div className="flex items-center justify-center">
         <a href="#" class="relative block">
           <img
@@ -23,7 +23,7 @@ const BlogPostCard = ({ title, author, date, content, imageName }) => {
             <span className="font-bold align-left">Date:</span> {date}
           </p>
         </div>
-        <button className="rounded ml-24 bg-red-200 align-right py-1 px-5 text-md">Duration</button>
+        <button className="rounded ml-24 bg-red-200 align-right py-1 px-5 mr-12 text-md">Duration</button>
       </div>  
     </div>
   );
@@ -59,7 +59,7 @@ const BlogPostList = () => {
 
   return (
     <div>
-          <h1 className="flex justify-center text-center font-bold text-4xl sm: text-2xl md: text-3xl font-mono">What's new?</h1>
+          <h1 className="flex justify-center text-center font-bold text-4xl mt-12 sm: text-2xl md: text-3xl font-mono">What's new?</h1>
           <p className="flex justify-center text-center text-xl sm: text-sm font-mono">Lorem ipsum dolor sit amet, in atqui possim eos, nec suas ridens et, mea b</p>
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 lg:grid-cols-3 gap-6">
@@ -68,7 +68,7 @@ const BlogPostList = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-2">
   <       button className="rounded bg-red-300 py-3 px-8 text-2xl text-md font-mono mb-4">See more articles</button>
       </div>
 
