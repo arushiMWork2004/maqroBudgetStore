@@ -32,14 +32,14 @@ const PricingPlan = () => {
           Yearly
         </button>
       </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <div className="px-6 py-4">
-            <h2 className="text-xl font-bold font-mono mb-4">Personal</h2>
+       <div className="flex justify-center"> 
+      <div className="inline-flex justify-stretch  sm:grid-cols-3 flex justify-stretch">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mx-5">
+          <div className="px-10 py-4">
+            <h2 className="text-4xl font-bold font-mono mb-4">Personal</h2>
             <p className="font-mono">Basic Features Are:</p>
             <div className = "inline-flex">
-            <p className="text-gray-600 text-2xl font-bold mb-4">
+            <p className="text-gray-600 text-3xl font-bold mb-4">
               {isMonthly ? '$30  /' : '$300 /'}
             </p>
             <p className="text-gray-600 mb-4">
@@ -54,17 +54,17 @@ const PricingPlan = () => {
               <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
               <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
-            <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
+            <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
               Upgrade
             </button>
           </div>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <div className="px-6 py-4">
-            <h2 className="text-xl font-bold font-mono mb-4">Standard</h2>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mx-3">
+          <div className="px-10 py-4">
+            <h2 className="text-4xl font-bold font-mono mb-4">Standard</h2>
             <p className="font-mono mb-2">Standard Features Are:</p>
             <div className = "inline-flex">
-            <p className="text-gray-600 text-2xl font-bold mb-4">
+            <p className="text-gray-600 text-3xl font-bold mb-4">
               {isMonthly ? '$20  /' : '$150 /'}
             </p>
             <p className="text-gray-600 mb-4">
@@ -78,17 +78,17 @@ const PricingPlan = () => {
               <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
               <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
-            <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
+            <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
                Upgrade
             </button>
           </div>
         </div>
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-          <div className="px-6 py-4">
-            <h2 className="text-xl font-bold font-mono mb-2">Premium</h2>
+          <div className="px-10 py-4">
+            <h2 className="text-4xl font-bold font-mono mb-2">Premium</h2>
             <p className="font-mono mb-2">Premium Features Are:</p>
             <div className = "inline-flex">
-            <p className="text-gray-600 text-2xl font-bold mb-4">
+            <p className="text-gray-600 text-3xl font-bold mb-4">
               {isMonthly ? '$30  /' : '$300 /'}
             </p>
             <p className="text-gray-600 mb-4">
@@ -102,10 +102,11 @@ const PricingPlan = () => {
               <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
               <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
             </ul>
-            <button className="bg-red-300 text-white py-2 px-4 mt-4 rounded">
-              Contact Sales
+            <button className="bg-red-300 text-white py-2 px-28 text-sm mt-4 rounded">
+              Contact Sale
             </button>
           </div>
+          </div>  
         </div>
       </div>
     </div>
