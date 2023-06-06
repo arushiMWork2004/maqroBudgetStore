@@ -36,79 +36,213 @@ const PricingPlan = () => {
         </button>
       </div>
       <div className="flex justify-center">
-        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="overflow-hidden shadow-lg bg-white border-8 border-red-200">
-            <div className="px-120 py-4">
+        <div className="">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            {/* Card 1 */}
+            <div className="px-8 overflow-hidden shadow-lg bg-white border-8 border-red-200">
               <div className="ml-8">
-              <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
-              <p className="font-mono mb-4">Basic Features Are:</p>
-              <div className = "inline-flex mb-2">
-            <p className="text-black text-5xl font-bold mb-4">
-              {isMonthly ? '$15' : '$150 /'}
-            </p>
-            <p className="text-gray-600 mt-4">
-              {isMonthly ? ` /user/month` : ' year'}
-            </p>
-            </div>
-              <ul className="text-gray-600">
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip 🛈</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
-              </ul>
-              <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
-                Upgrade
-              </button>
+                <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
+                <p className="font-mono mb-4">Basic Features Are:</p>
+                <div className="flex mb-2">
+                  <p className="text-black text-5xl font-bold mb-4">
+                    {isMonthly ? '$15' : '$150'}
+                  </p>
+                  <p className="text-gray-600 mt-4">
+                    {isMonthly ? '/user/month' : '/year'}
+                  </p>
+                </div>
+                <ul className="text-gray-600">
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2">
+                    <img
+                      src="/cross.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2">
+                    <img
+                      src="/cross.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                </ul>
+                <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
+                  Upgrade
+                </button>
               </div>
             </div>
-          </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg border bg-white mx-3">
-            <div className="px-10 py-4">
-              <h2 className="text-4xl font-bold font-mono mb-4">Standard</h2>
-              <p className="font-mono mb-2">Standard Features Are:</p>
-              <div className = "inline-flex">
-            <p className="text-gray-600 text-3xl font-bold mb-4">
-              {isMonthly ? '$30  /' : '$300 /'}
-            </p>
-            <p className="text-gray-600 mb-4">
-              {isMonthly ? 'month' : ' year'}
-            </p>
+
+            {/* Card 2 */}
+            <div className="px-8 py-4 overflow-hidden shadow-lg bg-white border-8 border-red-200">
+              <div className="ml-8">
+                <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
+                <p className="font-mono mb-4">Basic Features Are:</p>
+                <div className="flex mb-2">
+                  <p className="text-black text-5xl font-bold mb-4">
+                    {isMonthly ? '$15' : '$150'}
+                  </p>
+                  <p className="text-gray-600 mt-4">
+                    {isMonthly ? '/user/month' : '/year'}
+                  </p>
+                </div>
+                <ul className="text-gray-600">
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2">
+                    <img
+                      src="/cross.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2">
+                    <img
+                      src="/cross.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                </ul>
+                <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
+                  Upgrade
+                </button>
+              </div>
             </div>
-              <ul className="text-gray-600">
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip 🛈</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✗Lorem ipsum dolor sit amet, consectetur adip</li>
-              </ul>
-              <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
-                Upgrade
-              </button>
-            </div>
-          </div>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white mx-5">
-            <div className="px-10 py-4">
-              <h2 className="text-4xl font-bold font-mono mb-2">Premium</h2>
-              <p className="font-mono mb-2">Premium Features Are:</p>
-              <div className = "inline-flex">
-            <p className="text-gray-600 text-3xl font-bold mb-4">
-              {isMonthly ? '$60  /' : '$600 /'}
-            </p>
-            <p className="text-gray-600 mb-4">
-              {isMonthly ? 'month' : ' year'}
-            </p>
-            </div>
-              <ul className="text-gray-600">
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip 🛈</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-                <li>✓Lorem ipsum dolor sit amet, consectetur adip</li>
-              </ul>
-              <button className="bg-red-300 text-white py-2 px-28 text-sm mt-4 rounded">
-                Contact Sale
-              </button>
+
+            {/* Card 3 */}
+            <div className="px-8 py-4 overflow-hidden shadow-lg bg-white border-8 border-red-200">
+              <div className="ml-8">
+                <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
+                <p className="font-mono mb-4">Basic Features Are:</p>
+                <div className="flex mb-2">
+                  <p className="text-black text-5xl font-bold mb-4">
+                    {isMonthly ? '$15' : '$150'}
+                  </p>
+                  <p className="text-gray-600 mt-4">
+                    {isMonthly ? '/user/month' : '/year'}
+                  </p>
+                </div>
+                <ul className="text-gray-600">
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2 inline-flex">
+                    <img
+                      src="/tick.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2">
+                    <img
+                      src="/cross.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                  <li className="mb-2">
+                    <img
+                      src="/cross.png"
+                      alt="Image 1"
+                      className="h-4 mb-4 mr-2 sm:mb-0 inline-flex"
+                    />
+                    Lorem ipsum dolor sit amet, consectetur adip
+                  </li>
+                </ul>
+                <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
+                  Upgrade
+                </button>
+              </div>
             </div>
           </div>
         </div>
