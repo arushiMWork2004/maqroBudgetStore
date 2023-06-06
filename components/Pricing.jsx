@@ -19,7 +19,7 @@ const PricingPlan = () => {
       </div>
       <div className="flex justify-center mb-4">
         <button
-          className={`px-4 py-2 mr-2 border-white ${
+          className={`px-4 py-2 border-8 border-white ${
             isMonthly ? 'bg-red-300' : 'bg-white'
           }`}
           onClick={togglePlan}
@@ -27,7 +27,7 @@ const PricingPlan = () => {
           Monthly
         </button>
         <button
-          className={`px-4 py-2 border-white ${
+          className={`px-4 py-2 border-8 border-white ${
             isMonthly ? 'bg-white' : 'bg-red-300'
           }`}
           onClick={togglePlan}
