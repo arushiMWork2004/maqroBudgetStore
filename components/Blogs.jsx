@@ -2,15 +2,13 @@ import React from 'react';
 
 const BlogPostCard = ({ title, author, date, content, imageName }) => {
   return (
-    <div className="bg-white mb-15 py-3 my-3">
-      <div className="flex items-center justify-center">
-        <a href="#" class="relative block">
+    <div className="bg-white mb-15  my-3">
+      <div className="items-center justify-center">
           <img
             alt="profil"
             src={imageName}
-            className="mx-auto h-80 w-full"
+            className="h-full"
           />
-        </a>
       </div>
       <div className="px-6 py-4">
        
@@ -24,7 +22,7 @@ const BlogPostCard = ({ title, author, date, content, imageName }) => {
           </p>
         </div>
         <button className="rounded ml-24 bg-red-200 align-right py-1 px-5 mr-12 text-md">Duration</button>
-      </div>  
+      </div> 
     </div>
   );
 };
