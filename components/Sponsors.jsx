@@ -5,7 +5,7 @@ const SponsorsComponent = () => {
     <div>
       <h1 className="text-6xl font-bold font-mono text-center p-4 sm:mb-24 ">Trusted by</h1>
       <div className="flex justify-center mx-auto mb-24">
-      <div className="flex flex-wrap justify-center space-x-36 sm:justify-start space-x-4">
+      <div className="flex flex-wrap justify-center space-x-28 sm:justify-start space-x-4">
         <img
           src="/download.png"
           alt="Image 1"
