@@ -40,15 +40,15 @@ const PricingPlan = () => {
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {/* Card 1 */}
             <div className="px-8 overflow-hidden shadow-lg bg-white border-8 border-red-200">
-              <div className="ml-8">
+              <div className="ml-8 mt-4">
                 <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
                 <p className="font-mono mb-4">Basic Features Are:</p>
                 <div className="flex mb-2">
                   <p className="text-black text-5xl font-bold mb-4">
-                    {isMonthly ? '$15' : '$150'}
+                    {isMonthly ? '$50' : '$500'}
                   </p>
                   <p className="text-gray-600 mt-4">
-                    {isMonthly ? '/user/month' : '/year'}
+                    {isMonthly ? '/user/month' : '/user/year'}
                   </p>
                 </div>
                 <ul className="text-gray-600">
@@ -110,8 +110,15 @@ const PricingPlan = () => {
             {/* Card 2 */}
             <div className="px-8 py-4 overflow-hidden shadow-lg bg-white border-8 border-red-200">
               <div className="ml-8">
-                <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
-                <p className="font-mono mb-4">Basic Features Are:</p>
+                <div className="grid grid-cols-2">
+                  <div>
+                  <h2 className="text-4xl font-bold font-mono mb-2">Startup</h2>
+                  </div>
+                  <div className="grid justify-items-end ">
+                    <button className="px-4 py-1 text-white rounded-full bg-red-400">Popular</button>
+                  </div>
+                </div>
+                <p className="font-mono mb-4">Startup Features Are:</p>
                 <div className="flex mb-2">
                   <p className="text-black text-5xl font-bold mb-4">
                     {isMonthly ? '$15' : '$150'}
@@ -180,7 +187,7 @@ const PricingPlan = () => {
             <div className="px-8 py-4 overflow-hidden shadow-lg bg-white border-8 border-red-200">
               <div className="ml-8">
                 <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
-                <p className="font-mono mb-4">Basic Features Are:</p>
+                <p className="font-mono mb-4">Personal Features Are:</p>
                 <div className="flex mb-2">
                   <p className="text-black text-5xl font-bold mb-4">
                     {isMonthly ? '$15' : '$150'}
