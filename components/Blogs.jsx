@@ -21,7 +21,7 @@ const BlogPostCard = ({ title, author, date, content, imageName }) => {
             <span className="font-bold align-left">Date:</span> {date}
           </p>
         </div>
-        <button className="rounded ml-24 bg-red-200 align-right py-1 px-5 mr-12 text-md">Duration</button>
+        <button className="rounded-full bg-red-200 align-right  ml-10 mb-1 py-1 px-5">Duration</button>
       </div> 
     </div>
   );
