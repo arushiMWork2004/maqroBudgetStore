@@ -121,7 +121,7 @@ const PricingPlan = () => {
                 <p className="font-mono mb-4">Startup Features Are:</p>
                 <div className="flex mb-2">
                   <p className="text-black text-5xl font-bold mb-4">
-                    {isMonthly ? '$15' : '$150'}
+                    {isMonthly ? '$100' : '$1000'}
                   </p>
                   <p className="text-gray-600 mt-4">
                     {isMonthly ? '/user/month' : '/year'}
@@ -186,11 +186,11 @@ const PricingPlan = () => {
             {/* Card 3 */}
             <div className="px-8 py-4 overflow-hidden shadow-lg bg-white border-8 border-red-200">
               <div className="ml-8">
-                <h2 className="text-4xl font-bold font-mono mb-2">Personal</h2>
-                <p className="font-mono mb-4">Personal Features Are:</p>
+                <h2 className="text-4xl font-bold font-mono mb-2">Organisation</h2>
+                <p className="font-mono mb-4">Organisation Features Are:</p>
                 <div className="flex mb-2">
                   <p className="text-black text-5xl font-bold mb-4">
-                    {isMonthly ? '$15' : '$150'}
+                    {isMonthly ? '$150' : '$1500'}
                   </p>
                   <p className="text-gray-600 mt-4">
                     {isMonthly ? '/user/month' : '/year'}
@@ -246,8 +246,8 @@ const PricingPlan = () => {
                     Lorem ipsum dolor sit amet, consectetur adip
                   </li>
                 </ul>
-                <button className="bg-red-300 text-white py-2 px-28 mt-4 rounded">
-                  Upgrade
+                <button className="bg-red-300 text-white py-2 px-28 mt-4 text-sm rounded">
+                  Contact Sale
                 </button>
               </div>
             </div>
